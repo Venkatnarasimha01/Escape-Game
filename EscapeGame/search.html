@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .con{
+            height: 20vh;
+            width: 100%;
+            background-color: green;
+            display: flex;
+            
+        }
+        /*.c1{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }*/
+        ul{
+            height: 20vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;  
+            list-style: none;
+            align-items: center;
+            font-size: 55px;
+            font-weight: bold;
+        }
+        ul  li a{
+            font-size: 30px;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: rgb(120, 148, 10);
+        }
+        ul  li a:hover{
+            background-color: rgb(66, 66, 17);
+            color: aliceblue;
+        }
+        .c1{
+            margin-top: 20px;
+            height: 30vh;
+            width: 100%;
+            background-image: url(./bg.jpg);
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c1 h2{
+            width: 40vw;
+            height: 40px;
+            padding: 10px;
+            background-color: rgb(168, 180, 190);
+            text-align: center;
+            font-size: 35px;
+            color: rgb(7, 71, 7);
+            
+        }
+        .sea{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+             
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .btn{
+            width: 50%;
+           
+        }
+        #one{
+            font-size: 55px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .btn input {
+            font-size: 20px;
+            height: 50px;
+            width: 65%;
+            text-align: center;
+            border: 2px solid rgb(0, 0, 0);
+        }
+        .btn button{
+            font-size: 25px;
+            width: 30%;
+            height: 50px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <ul>
+        <li>Esacpe from Tech</li>
+        <li><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+        <li><a href="./info.html"><i class="fa-solid fa-circle-info"></i>&nbsp;INFORMATION</a></li>
+        <li><a href="./search.html"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;Search</a></li>
+    </ul>
+</div>
+<div class="c1">
+    <h2>Escape from Technology</h2>
+</div>
+<h2 id="one">Search</h2>
+<div class="sea">
+    <div class="btn">
+        <input type="text" placeholder="search something">
+        <button>search</button>
+    </div>
+</div>
+</body>
+</html>
